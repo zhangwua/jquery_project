@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>注册页面</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/register.css">
+	<!-- <script src="../js/jquery-3.1.1.js"></script>
+	 <script src="../libs/jquery-validate/jquery.validate.js"></script>
+    <script src="../libs/jquery-validate/localization/messages_zh.js"></script>		
+	<script src='../js/common.js'></script> 
+	<script src="../js/register.js"></script> -->
+	<script src="../js/require.js" data-main="../js/register.js"></script>
+</head>
+<body> 
+	<div class='header'> 
+	<!-- 网页头部top start--> 
+		<div class="h_top f-cb">
+			<ul class='h_top_left login1'>
+				<li>您好，欢迎来到飞虎乐购!</li>
+				<li><a href="html/login.html">安全登录</a></li>
+				<li>还没加入我们？</li>
+				<li><a href="html/register.html">免费注册</a></li>
+			</ul>
+			<ul class='h_top_left_hide f-cb login2'>
+				<span class="logined">亲爱的<a href="#" class="username"></a>欢迎您<a href="#" id="delcookie">退出</a></span>
+			</ul>
+			<ul class='h_top_right'>
+				<li class='h_top_li1'>
+					<a class='h_top_li1_a1' href="#">我的账户<span></span></a><em>|</em>
+					<ul>
+						<li><a href="#">账户首页</a></li>
+						<li><a href="#">我的收藏</a></li>
+						<li><a href="#">我的订单</a></li>
+					</ul>
+				</li>
+				<li class='h_top_li2'>
+					<a class='h_top_li2_a1' href="#">帮助中心</a><em>|</em>
+				</li>
+				<li><a href="#">网站体验反馈</a><em>|</em></li>
+				<li class="h_top_li4">400 883 6900 <b></b></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="login_wrap">
+		<div class="content">
+			<div class="logo">
+				<img src="../img/login_logo.png" alt="">
+			</div>
+			<div class="login_box">
+				<div class="title"> 
+					<h2>用户注册</h2>
+				</div>
+				<div class="boxmain">
+					<div class="tips">
+						<b>您尚未注册:</b>请填写注册信息,带有<em>*</em>号的为必填项。
+					</div>
+					 <form>
+				        <p><span>&nbsp;&nbsp;*</span><label for="username">用户名：</label><input type="text" name="username" id="username" class="txt" style="background: none"></p> 
+
+				        <p>&nbsp;&nbsp;<span>&nbsp;&nbsp;&nbsp;&nbsp;*</span><label for="password">密码：</label><input style="background: none" type="password" name="passowrd" id="password" class="txt"></p>
+
+				         <p><span>*</span><label for="confirm_password">确认密码：</label><input type="password" name="confirm_password" id="confirm_password" class="txt"> </p>
+
+				        <p>&nbsp;&nbsp;<span>&nbsp;&nbsp;&nbsp;*</span><label for="email">email：</label><input style="background: none" type="email" name="email" id="email" class="txt"></p>
+
+				        <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="width: 4.7px"></span><label for="person">推荐人：</label><input style="background: none" type="text" name="person" id="person" class="txt"></p>
+
+				        <p>&nbsp;<span style="width: 4.7px"></span><label for="Num">活动代码：</label><input style="background: none" type="text" name="Num" id="Num" class="txt"></p>
+				        <p><span style="width: 4.7px"></span><input type="text" id="num" style="width: 63px;height: 20px"><a href="#" style="cursor: pointer; margin-top: 5px" id="checkcode">换一个</a></p>
+				        <div class="agreement_box">
+										<input type="checkbox" id="btn1" name="checkbox">我已阅读并同意<a href="#">飞虎乐购用户协议</a>
+									</div><br>
+									<div class="fh_agreement">请阅读并同意飞虎乐购用户协议</div><br>
+				        <a href="#" class="btn_register" id="btn"></a>
+				    </form>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="footer">
+				<div class="copy_r">
+					<ul class="link">
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">法律说明</a></li>
+						<li><a href="#">联系客服</a></li>
+					</ul>
+					<div class="copyright">
+						<p>增值电信业务经营许可证：<a href="#">粤B2-20130551</a> | 网站备案：<a href="#">粤ICP备14036938号</a></p>
+						<p>食品流通许可证：SP4403112014007826 | 食品流通许可证：SP1103021110002595 </p>
+						<p> Copyright © 2009-2017 深圳市理约云信息管理有限公司.All Rights Reserved <span>EFEIHU-WWW01-OU</span>  </p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+</body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "1702feihu",
+  "version": "0.0.1",
+  "description": "仅供gz1702班学习",
+  "main": "gulpfile.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "laoxie",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhangwua/h5_1702.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zhangwua/h5_1702/issues"
+  },
+  "homepage": "https://github.com/zhangwua/h5_1702#readme"
+}

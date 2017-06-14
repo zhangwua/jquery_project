@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<script type="text/javascript" src="../libs/jquery/jquery-2.1.1.min.js"></script>
+</head>
+<body>
+	<form>
+		<label>姓名</label><input type="text" name="name" value="" placeholder=""><br/>
+		<label>密码</label><input type="text" name="password" value="" placeholder=""><br/>
+		<!-- <label>文件</label><input type="file" name="file" value="" placeholder=""> -->
+		<input type="button" name="" value="提交"><br/>
+		<span></span>
+	</form>		
+
+	<script type="text/javascript">
+		$(function(){
+			// var $_GET = {name: 'admin', password: '123456'};
+			// $_GET["name"] . $_GET["password"];
+
+
+			$(':button').on('click', function(){
+				// $.get('index.php?name=' + $('[name=name]').val() + '&password=' + $('[name=password]').val(), function(response){
+				// 	// console.log(response);
+				// 	$('span').html(response);
+				// })
+				//
+				//$.post(url, data, callback)
+				$.post('index.php', {name: $('[name=name]').val(), password: $('[name=password]').val() }, function(response){
+					$('span').html(response);
+				})
+			})
+			// $.ajax({
+			// 	url: 'demo01.php?name=admin',
+			// 	success: function(response){
+			// 		console.log(response);
+			// 	}
+			// })
+		})
+	</script>
+</body>
+</html>

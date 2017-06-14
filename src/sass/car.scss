@@ -1,0 +1,354 @@
+.clear{display:block;overflow:hidden;}
+body {
+  width: 100%;
+  min-width: 1262px; }
+.header{
+	min-width: 980px;
+	height: 29px;
+    background: #ddd;
+    position: relative;
+    z-index: 990;
+    border-bottom: solid 1px #ccc;
+    zoom: 1;
+	.h_top{
+		display: block;
+	    width: 1200px;
+	    margin: 0 auto;
+	    clear: both;
+	    .h_top_left {
+    		float: left;  
+			li {
+			    float: left;
+			    line-height: 34px;
+			    text-indent: 14px;
+			    a {
+			        line-height: 34px;
+			        text-indent: 14px;
+			        display: block;
+			        height: 34px;
+			        
+		        }
+			}
+    	}
+    	.h_top_left_hide {
+			    padding-top: 2px;
+			    line-height: 25px;
+			    float: left;
+			    width: 360px;
+			    display: none;
+			    .logind{
+			    	    line-height: 25px;
+			    	a{
+			    		color: #0066ff;
+			    	}
+			    }
+		}
+		.h_top_right {
+		    float: right;
+		    padding-right: 30px; 
+			em {
+		      font-weight: normal;
+		      float: right;
+		      padding-left: 13px;
+		      color: #ddd; }
+		    li {
+		      float: left;
+		      padding-left: 13px;
+		      margin-top: 9px;
+		      height: 16px;
+				a {
+			        float: left;
+			        height: 16px;
+			        color: #000; }
+		    }
+		}
+	}
+	.h_top .h_top_right .h_top_li1,.h_top .h_top_right .h_top_li4 {
+      position: relative;
+      z-index: 1; }
+     .h_top .h_top_right .h_top_li4 b{position: absolute;
+        left: 0px;
+        top: 3px;
+        display: block;
+        width: 10px;
+        height: 10px;
+        overflow: hidden;background: url(../img/sl_nav.png) no-repeat -20px 0;}
+    }
+      .h_top .h_top_right .h_top_li1 span {
+        display: block;
+        width: 8px;
+        height: 4px;
+        background: url(../img/top_img/idnex_icon.png) -148px -503px;
+        float: right;
+        margin-left: 10px;
+        margin-top: 6px; }
+      .h_top .h_top_right .h_top_li1 ul {
+        position: absolute;
+        top: 30px;
+        background: #fff;
+        display: none;
+        width: 94px;
+        left: 2px;
+        z-index: 1999; }
+        .h_top .h_top_right .h_top_li1 ul li {
+          margin: 0;
+          padding: 0;
+          height: 30px;
+          line-height: 30px;
+          text-indent: 12px; }
+    .h_top .h_top_right .h_top_li1:hover {
+      padding: 0;
+      margin-top: 2px; }
+      .h_top .h_top_right .h_top_li1:hover .h_top_li1_a1 {
+        margin: 0 2px;
+        border: 1px solid #ddd;
+        padding: 6px 10px 9px 10px;
+        border-bottom: 1px solid #fff;
+        position: relative;
+        z-index: 1;
+        background: #fff; }
+      .h_top .h_top_right .h_top_li1:hover span {
+        background-position: -148px -496px; }
+      .h_top .h_top_right .h_top_li1:hover em {
+        padding: 7px 0 0 0px; }
+      .h_top .h_top_right .h_top_li1:hover ul {
+        border: 1px solid #ddd;
+        display: block;
+        border-top: 0px; }
+        .h_top .h_top_right .h_top_li1:hover ul li {
+          margin-top: 0px; }
+    .h_top .h_top_right .h_top_li2 {
+      border: 0;
+      position: relative;
+     }
+      .h_top .h_top_right .h_top_li2 span {
+        display: block;
+        width: 8px;
+        height: 4px;
+        background: url(../img/top_img/idnex_icon.png) -148px -503px;
+        float: right;
+        margin-left: 10px;
+        margin-top: 6px; }
+      .h_top .h_top_right .h_top_li2 ul {
+        position: absolute;
+        top: 30px;
+        background: #fff;
+        display: none;
+        width: 94px;
+        left: 2px;
+        z-index: 1; }
+        .h_top .h_top_right .h_top_li2 ul li {
+          margin: 0;
+          padding: 0;
+          height: 30px;
+          line-height: 30px;
+          text-indent: 12px; }
+    .h_top .h_top_right .h_top_li2:hover {
+      padding: 0;
+      margin-top: 2px; }
+      .h_top .h_top_right .h_top_li2:hover .h_top_li2_a1 {
+        margin: 0 2px;
+        border: 1px solid #ddd;
+        padding: 6px 10px 9px 10px;
+        border-bottom: 1px solid #fff;
+        position: relative;
+        z-index: 1;
+        background: #fff; }
+      .h_top .h_top_right .h_top_li2:hover span {
+        background-position: -148px -496px; }
+      .h_top .h_top_right .h_top_li2:hover em {
+        padding: 7px 0 0 0px; }
+      .h_top .h_top_right .h_top_li2:hover ul {
+        border: 1px solid #ddd;
+        display: block;
+        border-top: 0; }
+        .h_top .h_top_right .h_top_li2:hover ul li {
+          margin-top: 0px; 
+}
+
+.search {
+  width: 100%;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 10px;
+  padding-bottom: 90px;
+	.logo {
+	    width: 265px;
+	    height: 81px;
+	    background: url(../img/top_img/idnex_icon2.png) -9px -9px;
+	    float: left;
+	    margin: 9px 0 0 24px; }
+	.staps{
+		display:block;
+		position: absolute;
+		top:35px;
+		left:370px;
+		width:633px;
+		height: 40px;
+		line-height: 35px;
+		background:url(../img/cart32.png); 
+		li{
+			float:left;
+			width: 210px;
+			overflow:hidden;
+			text-align:center;
+			color:#fff;
+			font-size:16px;
+		}
+	}
+
+   }
+
+.wrapper{
+	margin-bottom: 20px;
+	width: 100%;
+	.hd{margin-top: 15px;height: 25px;line-height: 25px;margin-bottom: 15px;position: relative;
+		h2{color:#333;}
+		.tips{
+			position:absolute;
+			left:120px;
+			top:0;
+			border:1px solid #ccc;
+			padding:3px 18px 3px 12px;
+			background:#ffffe3;
+			line-height: 18px;
+			.icon{
+				position:absolute;
+				width: 8px;
+				height: 8px;
+				background:url(../img/ui_tipsPop.png) no-repeat -10px 0;
+				overflow:hidden;
+				line-height: 200px;
+				left: -8px;
+				top: 8px;
+			}
+			.close{
+				position:absolute;
+				width: 7px;
+				height: 7px;
+				background:url(../img/ui_tipsPop.png) no-repeat 0 0;
+				overflow:hidden;
+				line-height: 200px;
+				right: 4px;
+				top: 3px;
+			}
+
+		}
+	}
+	.cartlist{
+			a{
+				color:#666;
+			}
+			a:hover{
+				color:#f00;	
+			}
+			width: 100%;
+		table{
+			width:1200px;
+			tr{
+				border:1px solid #C5C5C5;
+				td{
+					text-align:center;
+				}
+
+			}
+			.tr_fis{
+				border:0;
+				th{
+					line-height:35px;border:0; border-top:2px solid #C6C6C6; background:#eee;text-align:center;
+				}
+				.tr_fis_1{
+					text-align:left; text-indent:10px;
+				}
+			}
+
+			.tab_name{
+				text-align:left;
+				input{
+					float:left; margin:6px;
+				}
+				img{
+					width:30px; height:30px;float:left; border:1px solid #ccc; margin-right:20px;
+				}
+			}
+			.num{
+					input{
+						width:38px; height:22px; float:left; text-align:center;
+					}
+					i{
+						width:26px; height:26px; background:#f00;float:left; line-height:26px;
+						cursor:pointer;
+					}
+					.subtract{
+						margin-left:88px;
+					}
+				}
+			.subtotal{
+				color:#f00;
+			}
+			.tab_rows{
+				height:120px;background:#FFFCF1;
+
+			}
+			.tab_space{
+				height:30px;
+			}
+		}
+		.clearing{
+		height:48px; border:1px solid #ccc; line-height:48px; margin-top:100px;
+		input{
+			margin-left:10px;
+		}
+		span{
+			float:right;
+			ins{
+				font-size:22px; color:#ff5000
+			}
+		}
+		.clearing_btn{
+			float:right; width:150px; height:48px; line-height:48px; text-align:center; color:#fff;
+			font-size:16px; background:#FF5000; margin-left:10px;
+		}
+	}
+
+
+}
+}
+	.hobby{
+		border-top: 2px solid #c7012c;margin-bottom: 10px;
+		.cart_hd{
+			height: 40px;line-height: 40px;background:#ccc;
+			a{float:left;width: 100px;display:block;font-size: 16px;
+				    font-weight: normal;color: #c7012c;}
+		}
+		.cart_nav{
+			height: 245px;
+			overflow:hidden;
+			position:relative;
+			ul{
+				.pro{height: 170px;width: 211px;float:left;padding:0 10px;
+					.pro_l{background:url(../img/love.jpg); padding:20px 10px;width: 60px;height: 60px;float:left;}
+					.pro_r{padding-top: 17px;float:left;width: 130px;
+						.pro_name{padding-top: 15px; height: 36px;line-height: 18px;overflow:hidden;}
+						.pro_price{height: 18px;overflow:hidden;padding-top: 20px;
+							span{margin-right: 10px;
+								b{color:#c7012c;font-weight:bold;}
+								em{color:#c7012c;font-weight:bold;}
+							}
+						}
+					}
+				}
+			}
+
+		}
+	}
+.foot{display:block;width: 1200px;padding-bottom: 20px;border-top: 1px solid #ccc;
+	ul{padding-top: 10px;height: 20px;;
+		li{
+			float:left;padding:0 10px;line-height: 20px;
+			overflow:hidden;font-size:12px; color:#646464;
+		}
+	}
+	p{padding: 2px;color:#646464;font-size:12px;padding-left: 10px;}
+	
+}

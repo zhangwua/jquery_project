@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0" name="viewport" />
+	<title></title>
+	<script type="text/javascript" src="js/touch-0.2.14.min.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+
+	<style type="text/css" media="screen">
+		div{width: 100px; height: 100px; background-color: #ccc;}
+	</style>
+</head>
+<body>
+	<div id="myDiv"></div>
+
+	<script type="text/javascript">
+		$(function(){
+			var angle = 0;
+			touch.on('#myDiv', 'touchstart', function(ev){
+				// console.log(ev);
+				ev.startRotate();
+				ev.preventDefault();
+			});	
+			touch.on('#myDiv', 'rotate', function(evt){
+				var totalAngle = angle + evt.rotation;
+				if(evt.fingerStatus == 'end'){
+					angle += evt.rotation;
+				}
+				this.style.webkitTransform = 'rotate(' + totalAngle + 'deg)';
+			})			
+		})
+
+	</script>
+</body>
+</html>

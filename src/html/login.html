@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录页面</title>
+	<link rel="stylesheet" href="../css/common.css">
+	<link rel="stylesheet" href="../css/login.css">
+	<!-- <script src="../js/jquery-3.1.1.js"></script>	
+	<script src='../js/common.js'></script> 	
+	<script src="../js/login.js"></script> -->
+	<script src="../js/require.js" data-main="../js/login.js"></script>
+</head>
+<body>  
+	<div class='header'> 
+	<!-- 网页头部top start--> 
+		<div class="h_top f-cb">
+			<ul class='h_top_left login1'>
+				<li>您好，欢迎来到飞虎乐购!</li>
+				<li><a href="html/login.html">安全登录</a></li>
+				<li>还没加入我们？</li>
+				<li><a href="html/register.html">免费注册</a></li>
+			</ul>
+			<ul class='h_top_left_hide f-cb login2'>
+				<span class="logined">亲爱的<a href="#" class="username"></a>欢迎您<a href="#" id="delcookie">退出</a></span>
+			</ul>
+			<ul class='h_top_right'>
+				<li class='h_top_li1'>
+					<a class='h_top_li1_a1' href="#">我的账户<span></span></a><em>|</em>
+					<ul>
+						<li><a href="#">账户首页</a></li>
+						<li><a href="#">我的收藏</a></li>
+						<li><a href="#">我的订单</a></li>
+					</ul>
+				</li>
+				<li class='h_top_li2'>
+					<a class='h_top_li2_a1' href="#">帮助中心</a><em>|</em>
+				</li>
+				<li><a href="#">网站体验反馈</a><em>|</em></li>
+				<li class="h_top_li4">400 883 6900 <b></b></li>
+			</ul>
+		</div>
+	</div>
+	
+	<div class="login_wrap">
+		<div class="content">
+			<div class="logo">
+				<img src="../img/login_logo.png" alt="">
+			</div>
+			<div class="login_box">
+				<div class="title"> 
+					<h2>用户登录</h2>
+				</div>
+				<div class="boxmain">
+					<div class="tips">					
+                		欢迎您登录飞虎乐购，享受您的购物之旅。
+					</div>
+					<table style="width: 100%;border: 0;" cellpadding="0" cellspacing="2">
+						<tbody>
+							<tr>
+								<td align="right" style="width: 22%;height: 32px;">用户名:&nbsp;&nbsp;</td>
+								<td style="width: 78%;"><input type="text" class='txt' id="username"></td>
+							</tr>
+							<tr>
+								<td align="right"style="width: 22%;height: 32px;">密&nbsp;&nbsp;&nbsp;&nbsp;码:&nbsp;&nbsp;</td>
+								<td style="width: 78%;"><input type="text" id='password' class="txt"></td>
+							</tr>
+							<tr>
+								<td align="right">&nbsp;</td>
+								<td><a href="#">忘记密码？</a></td>
+							</tr>
+							<tr>
+								<td style="height: 30px;" colspan="2">
+									<table class="joint_login" style="width: 102%;line-height: 18px;padding-left: 0;">
+										<tbody>
+											<tr>
+												<td style="height: 30px;width: 69px;"align="right">联合声明:</td>
+												<td>
+													<span style="cursor:pointer;" class="itaobao"><a href="#">支付宝快捷登录</a></span>
+													<span style="cursor:pointer;" class="iqq"><a href="#">QQ</a></span>
+													<span style="cursor:pointer;" class="isina"><a href="#">新浪</a></span>
+												</td>
+											</tr>
+											<tr class="joint_login">
+												<td style="height: 30px;"align="right">&nbsp;</td>
+												<td>
+													<span style="cursor:pointer;" class="irenren"><a href="#">人人网</a></span>
+													<span style="cursor:pointer; margin-left: -5px" class="ikaixin"><a href="#">开心</a></span>
+													<span style="cursor:pointer; margin-left: -10px" class="inest"><a href="#">新浪</a></span>
+												</td>
+											</tr>
+												<tr class="joint_login">
+												<td style="height: 30px;"align="right">&nbsp;</td>
+												<td>
+													<span style="cursor:pointer;" class="ithunder"><a href="#">迅雷</a></span>
+													<span style="cursor:pointer; margin-left: -10px" class="ichinaMobile"><a href="#">139邮箱</a></span>
+												</td>
+											</tr>
+										</tbody>
+									</table>
+								</td>
+							</tr>
+							<tr>
+								<td align="right">&nbsp;</td>
+								<td>
+									<a href="#" id="btn" class="btn_login">安全登录<b></b></a>
+									<span id="reginster">
+										<a href="http://localhost/h5_1701/feihu/src/html/register.html">免费注册</a>
+									</span>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<div class="footer">
+				<div class="copy_r">
+					<ul class="link">
+						<li><a href="#">常见问题</a></li>
+						<li><a href="#">法律说明</a></li>
+						<li><a href="#">联系客服</a></li>
+					</ul>
+					<div class="copyright">
+						<p>增值电信业务经营许可证：<a href="#">粤B2-20130551</a> | 网站备案：<a href="#">粤ICP备14036938号</a></p>
+						<p>食品流通许可证：SP4403112014007826 | 食品流通许可证：SP1103021110002595 </p>
+						<p> Copyright © 2009-2017 深圳市理约云信息管理有限公司.All Rights Reserved <span>EFEIHU-WWW01-OU</span>  </p>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+</body>
+</html>

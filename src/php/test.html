@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="../libs/jquery-confirm/jquery-confirm.css">
+
+	<script type="text/javascript" src="../libs/jquery/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="../libs/angular/angular.min.js"></script>
+	<script type="text/javascript" src="../libs/angular/angular.global.js"></script>
+	<script type="text/javascript" src="../libs/jquery-confirm/jquery-confirm.js"></script>
+</head>
+<body ng-app="testAPP" ng-controller="testController">
+	<input type="tel" name="" value="" ng-model="account" placeholder="">
+	<input type="tel" name="" value="" ng-model="password" placeholder="">
+	<input type="button" name="" value="submit" ng-click="submit()">
+	<h1 ng-bind="result"></h1>
+
+	<script type="text/javascript">
+		var testAPP = angular.module('testAPP', ['globalapp']);
+		testAPP.controller('testController', ['$scope', '$http', function ($scope, $http) {
+			$scope.submit = function(){
+				// $.post('test.php', {name: $scope.name, password: $scope.password}, function(response){
+				// 	console.log(response);
+				// })
+				$http.post('test.php', {account: $scope.account, password: $scope.password}).success(function(response){
+					$scope.result = response;
+					console.log(response);
+				})
+			}
+			
+		}])
+	</script>
+</body>
+</html>

@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>购物车</title>
+	<link rel='stylesheet' href='../css/common.css'/>
+	<link rel='stylesheet' href='../css/car.css'/>
+	<script src="../js/require.js" data-main="../js/car.js"></script>
+</head> 
+<body> 
+	<div class='header'>  
+	<!-- 网页头部top start-->
+		<div class="h_top f-cb">  
+			<ul class='h_top_left login1'>
+				<li>您好，欢迎来到飞虎乐购!</li>
+				<li><a href="html/login.html">安全登录</a></li>
+				<li>还没加入我们？</li>
+				<li><a href="html/register.html">免费注册</a></li>
+			</ul>
+			<ul class='h_top_left_hide f-cb login2'>
+				<span class="logined">亲爱的<a href="#" class="username"></a>欢迎您<a href="#" id="delcookie">退出</a></span>
+			</ul>
+			<ul class='h_top_right'>
+				<li class='h_top_li1'>
+					<a class='h_top_li1_a1' href="#">我的账户<span></span></a><em>|</em>
+					<ul>
+						<li><a href="#">账户首页</a></li>
+						<li><a href="#">我的收藏</a></li>
+						<li><a href="#">我的订单</a></li>
+					</ul>
+				</li> 
+				<li class='h_top_li2'>
+					<a class='h_top_li2_a1' href="#">网站导航<span></span></a><em>|</em>
+					<ul>
+						<li><a href="#">帮助中心</a></li>
+						<li><a href="#">练习客服</a></li>
+						<li><a href="#">常见问题</a></li>
+					</ul>
+				</li>
+				<li><a href="#">加入收藏</a><em>|</em></li>
+				<li class="h_top_li4">400 883 6900 <b></b></li>
+			</ul>
+		</div>
+	</div>
+		<div class="search">
+			<div class='logo'></div>
+
+			<ul class="staps">
+				<li>我的购物车</li>
+				<li>确认订单信息</li>
+				<li>成功提交订单</li>
+			</ul>
+			</div>			
+		</div>
+		<!-- end -->
+		<div class="wrapper">
+			<div class="hd">
+				<h2>我挑选的物品</h2>
+				<div class="tips">
+					<span class="icon"></span>
+					<span class="close">关闭</span>
+					飞虎自营：单笔订单满59元免运费。
+					<a href="#">查看详情</a>
+				</div>
+			</div>
+			<div class="cartlist">
+				<table id="product-list"> 
+					<thead>
+						<tr class='tr_fis'>
+							<th class='tr_fis_1'><input class='allselect' type="checkbox">全选</th>
+							<th>商品图片</th>
+							<th>商品名称</th>
+							<th>商品数量</th>
+							<th>商品价钱</th>
+							<th>飞虎总价</th>
+							<th>操作</th>
+						</tr> 
+					</thead>
+					<tbody></tbody>
+				</table>
+				<div class='clearing'>
+					<input class='allselect' type="checkbox">全选
+					<ins>
+						<a class='delselect' href=javascript:;>删除选中商品</a>
+						<a href="">继续购物</a>
+						<a class = 'delall' href=javascript:;>清空购物车</a>
+					</ins>
+					<span>已选 <i>0</i> 件商品 合计（不含运费）：<ins>￥0</ins>
+					<a class='clearing_btn' href=javascript:;>去结算</a></span>
+				</div>
+			</div>
+			<div class="hobby">
+				<div class="cart_hd">
+					<a href="#">猜你喜欢</a>
+				</div>
+				<div class="cart_nav">
+					<ul>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+						<li class="pro">
+							<div class="pro_l"><a href="#" alt=""></a></div>
+							<div class="pro_r">
+								<p class="pro_name">
+				                	御泥坊 葡萄籽黑面膜+红石榴蚕丝 组合10片装
+				                 </p>
+								<p class="pro_price">
+									<span><b>￥</b><em>29</em></span>
+								</p>
+							</div>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="foot">
+			<ul>
+				<li><a href="">常见问题</a></li>
+				<li><a href="">法律说明</a></li>
+				<li><a href="">新闻中心</a></li>
+				<li><a href="">意见箱</a></li>
+			</ul>
+			<p>食品流通许可证：SP4403112014007826 | 食品流通许可证：SP1103021110002595 </p>
+			<p>食品流通许可证：SP4403112014007826 | 食品流通许可证：SP1103021110002595 </p>
+			<p> Copyright © 2009-2017 深圳市理约云信息管理有限公司.All Rights Reserved  </p>
+		</div>
+	</div>
+</body>
+</html>

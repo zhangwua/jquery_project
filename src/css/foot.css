@@ -1,0 +1,45 @@
+.foot { display: block; width: 980px; margin: 0 auto; clear: both; padding-bottom: 20px; }
+
+.foot .footer { margin: 0; padding: 0; }
+
+.foot .footer .kouhao { background: url(../img/sl_footer.png) no-repeat 0 0; height: 47px; overflow: hidden; line-height: 400px; margin-bottom: 20px; }
+
+.foot .footer .clearfix { margin: 0; padding: 0; overflow: hidden; }
+
+.foot .footer .clearfix .service_l { float: left; width: 250px; padding-top: 20px; color: #999; }
+
+.foot .footer .clearfix .service_l .service_tel { padding-left: 35px; line-height: 24px; vertical-align: middle; }
+
+.foot .footer .clearfix .service_l .service_tel strong { font-size: 16px; color: #333; font-weight: normal; font-family: arial; }
+
+.foot .footer .clearfix .service_l .service_time { text-align: right; padding-left: 99px; position: relative; padding-top: 6px; zoom: 1; }
+
+.foot .footer .clearfix .service_l .service_time .time { padding-top: 8px; }
+
+.foot .footer .clearfix .service_l .service_time .time em { color: #FF6600; font-style: normal; }
+
+.foot .footer .clearfix .service_l .service_time .icon { position: absolute; left: 40px; top: 8px; width: 52px; height: 50px; background: url(../img/sl_footer.png) no-repeat 0 -47px; }
+
+.foot .footer .clearfix .service_r { width: 700px; float: right; margin-bottom: 20px; }
+
+.foot .footer .clearfix .service_r dl { width: 124px; float: left; height: 150px; border-left: solid 1px #ddd; padding-left: 15px; }
+
+.foot .footer .clearfix .service_r dt { height: 22px; line-height: 22px; margin-bottom: 4px; font-size: 14px; font-family: "Microsoft Yahei",simhei; color: #000; }
+
+.foot .footer .clearfix .service_r dd { height: 20px; line-height: 20px; overflow: hidden; }
+
+.foot .footer .clearfix .service_r dd a { color: #999; }
+
+.foot .footer .copy_r { position: relative; zoom: 1; }
+
+.foot .footer .copy_r ul { margin: 0; padding: 0; overflow: hidden; }
+
+.foot .footer .copy_r ul li { padding: 0 10px; height: 20px; overflow: hidden; line-height: 20px; float: left; background: url(../img/sl_footer.png) no-repeat right -75px; }
+
+.foot .footer .copy_r ul li a { text-decoration: none; color: #333; display: block; }
+
+.foot .footer .copy_r .copyright { color: #999; padding-left: 10px; padding-top: 2px; }
+
+.foot .footer .copy_r .copyright p { margin: 0; padding: 0; }
+
+.foot .footer .copy_r .copyright p a { color: #999; }
