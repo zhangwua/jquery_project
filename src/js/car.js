@@ -57,7 +57,6 @@ require(['config'],function(){
 						})
 						// 删除一条 
 						$('.delcart').click(function(){
-							console.log(666)
 							var name = $(this).parent().parent().find('.tab_name>h3').html();
 							console.log(name)
 							$.get('../html/delete.php',{name:name},function(data){
@@ -71,7 +70,7 @@ require(['config'],function(){
 									alert(data.msg)
 								}
 							},'json')
-							cart.init(); 
+							
 							return false;
 
 						})
@@ -88,7 +87,6 @@ require(['config'],function(){
 											alert(data.msg)
 										}
 									},'json')
-									cart.init();
 								}
 							})
 							return false;
@@ -107,8 +105,8 @@ require(['config'],function(){
 										alert(data.msg)
 									}
 								},'json')
-								cart.init();
 							})
+							location.reload()
 						})
 					}
 					cart.pricetotal();
