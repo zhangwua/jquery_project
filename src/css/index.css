@@ -206,6 +206,10 @@ a { color: #0066ff; }
 
 .banner .b_wrap .banner_right .b_r_news ul li { line-height: 21px; }
 
+.banner .b_wrap .banner_right .b_r_news a { color: #666; }
+
+.banner .b_wrap .banner_right .b_r_news a:hover { color: #f50; }
+
 .banner .b_wrap .banner_right .b_r_imglist { width: 440px; position: absolute; top: 165px; }
 
 .banner .b_wrap .banner_right .b_r_imglist li { float: left; }

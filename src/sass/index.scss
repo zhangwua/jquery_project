@@ -508,6 +508,11 @@ a { color: #0066ff; }
 						line-height:21px;
 					}
 				}
+				a{
+					color:#666;
+				}
+
+				a:hover { color: #f50; }
 			}
 			.b_r_imglist{
 				width:440px; position:absolute; top:165px;
