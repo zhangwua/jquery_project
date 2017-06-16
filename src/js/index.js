@@ -50,6 +50,7 @@ require(['config'],function(){
 			$('#delcookie').on('click',function(){
 				 	delCookie('username');
 		            delCookie('password');
+		             delCookie('num');
 		            $('.login1').show();
 					$('.login2').hide(); 
 			})

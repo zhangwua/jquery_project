@@ -169,6 +169,7 @@ require(['config'],function(){
 			$('#delcookie').on('click',function(){
 				 	delCookie('username');
 		            delCookie('password');
+		             delCookie('num');
 			})
 		});
 	});
