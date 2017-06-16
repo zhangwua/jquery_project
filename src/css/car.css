@@ -142,7 +142,7 @@ body { width: 100%; min-width: 1262px; }
 
 .hobby .cart_nav { height: 245px; overflow: hidden; position: relative; }
 
-.hobby .cart_nav ul .pro { height: 170px; width: 211px; float: left; padding: 0 10px; }
+.hobby .cart_nav ul .pro { height: 130px; width: 211px; float: left; padding: 0 10px; }
 
 .hobby .cart_nav ul .pro .pro_l { background: url(../img/love.jpg); padding: 20px 10px; width: 60px; height: 60px; float: left; }
 
